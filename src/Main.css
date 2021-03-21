@@ -1,0 +1,14 @@
+.monster {
+  background-color: red;
+  
+  border: solid black;
+}
+
+.MainMonster {
+  background-color: blue;
+  padding: 50px;
+}
+
+.description {
+  background-color: cadetblue;
+}
