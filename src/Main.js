@@ -9,7 +9,7 @@ class Main extends React.Component {
     return(
       <>
     {data.map((beast) => (
-      
+      // in a working state
     <HornedBeast
       name = {beast.keyword}
       title = {beast.title}
