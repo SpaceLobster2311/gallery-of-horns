@@ -5,6 +5,11 @@ import CardColumns from 'react-bootstrap/CardColumns'
 import data from './data.json';
 import './Main.css';
 class Main extends React.Component {
+
+  handleClick = () => {
+    
+  }
+
   render() {
   
     return(
@@ -17,6 +22,7 @@ class Main extends React.Component {
       title = {beast.title}
       imgUrl = {beast.image_url}
       description = {beast.description}
+      handleClick={this.props.handleClick}
     />
     ))
   }

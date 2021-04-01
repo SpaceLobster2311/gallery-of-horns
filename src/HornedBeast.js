@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
@@ -17,6 +18,11 @@ class HornedBeast extends React.Component {
       likes: this.state.likes + 1,
       fire: this.state.fire + '🔥'
     });
+    this.props.handleClick({
+      title: this.props.title,
+      description: this.props.description,
+      imgUrl: this.props.imgUrl
+    })
   }
 
   render() {
