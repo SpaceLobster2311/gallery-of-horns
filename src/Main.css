@@ -1,4 +1,4 @@
-.monster {
+/* .monster {
   background-color: red;
   
   border: solid black;
@@ -11,4 +11,8 @@
 
 .description {
   background-color: cadetblue;
+} */
+
+main {
+  background-color: lightblue;
 }
